@@ -4,6 +4,7 @@ section{
     @apply w-screen h-screen flex-col;
 }
 
+// FIRST DIV
 .first-div{
     @apply flex w-full h-full items-center flex-col;
     background-image: url(../assets/background.png);
@@ -21,4 +22,64 @@ section{
 .first-div > button{
     @apply flex mt-[5%] w-[10%] h-[5%] items-center justify-center text-back bg-orange rounded-md;
 
+}
+//
+
+
+// CARDS MISSÃO...
+.cards-empresa{
+    @apply flex w-full h-full items-center flex-col text-back justify-center;
+}
+.cards-empresa > :first-child{
+    @apply grid grid-cols-2 gap-4 w-[80%] h-1/2 bg-primary rounded-md;
+    overflow: hidden;
+}
+.cards-empresa > img {
+    @apply flex w-full h-full;
+}
+.card-h3-text {
+    @apply text-3xl w-[15%] border-b-2 border-orange mt-[5%];
+}
+.card-p-text{
+    @apply text-xl w-full;
+    font-family: "Inter", sans-serif;
+}
+.card-text{
+    @apply flex h-[50%] w-[70%] flex-col justify-around;
+}
+#only-left-card{
+    @apply flex h-full w-full ml-[5%] flex-col;
+}
+
+
+//PROCESSOS
+.processos{
+    @apply flex w-full h-1/2 items-center justify-center;
+}
+.grid-processos{
+    @apply grid w-[80%] h-[70%] grid-cols-2;
+}
+.processos-card-produtivo{
+    @apply flex justify-start;
+}
+.processo-especifico{
+    @apply flex h-full w-5/6 flex-col text-back justify-evenly pl-10;
+}
+.processo-especifico > h5{
+    @apply text-2xl;
+}
+.processo-especifico > p{
+    @apply text-xl;
+}
+.processo-especifico > a{
+    @apply border-orange border-b-2 w-[20%];
+}
+.produtivo{
+    background-image: url(../assets/produtivos.png);
+}
+.logistico{
+    background-image: url(../assets/logisticos.png);
+}
+.processos-card-logistico{
+    @apply flex w-full h-full justify-end;
 }
