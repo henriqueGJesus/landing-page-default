@@ -4,6 +4,18 @@ section{
     @apply w-screen h-screen flex-col;
 }
 
+//HEADER
+header{
+    @apply absolute w-full h-[10%];
+}
+header > ul{
+    @apply flex w-[100%] justify-end h-full;
+
+}
+header > ul > li{
+    @apply flex w-[10%] h-full items-center justify-center text-primary;
+}
+
 // FIRST DIV
 .first-div{
     @apply flex w-full h-full items-center flex-col;
