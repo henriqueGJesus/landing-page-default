@@ -3,3 +3,22 @@
 section{
     @apply w-screen h-screen flex-col;
 }
+
+.first-div{
+    @apply flex w-full h-full items-center flex-col;
+    background-image: url(../assets/background.png);
+}
+.first-div > img {
+    @apply flex w-[20%] mt-[3%] h-auto;
+}
+.first-div > h2{
+    @apply text-3xl text-primary mb-[3%];
+}
+.first-div > p{
+    @apply text-xl text-primary;
+}
+
+.first-div > button{
+    @apply flex mt-[5%] w-[10%] h-[5%] items-center justify-center text-back bg-orange rounded-md;
+
+}
