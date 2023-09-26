@@ -1,5 +1,43 @@
 
 
 section{
-    @apply w-screen h-screen flex-col;
+    @apply w-screen h-screen flex-col bg-back;
+}
+
+.beneficios {
+    @apply w-screen h-4/5 bg-[#f3f3f3] flex items-center flex-col justify-center;
+}
+
+
+.div {
+    @apply w-4/5 h-1/3 flex flex-col justify-center items-center;
+}
+
+.infoBox {
+    @apply w-4/5 h-3/5 bg-primary p-5 flex justify-center items-center rounded-sm;
+}
+
+.infoText {
+    @apply text-[#fff] text-4xl text-center;
+}
+
+.contentBox {
+    @apply w-4/5 h-full flex justify-center items-center;
+}
+
+.contentText {
+    @apply text-3xl text-center;
+}
+
+.benefitsBox {
+    @apply w-4/5 h-full flex justify-between items-center;
+}
+
+.box {
+    @apply  w-[30%] h-4/6 bg-primary rounded grid row-span-2;
+    box-shadow: 15px 15px #E38E29;
+}
+
+.boxText {
+    @apply text-back text-2xl text-center;
 }
