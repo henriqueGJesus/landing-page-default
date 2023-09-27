@@ -2,7 +2,6 @@
 
 section{
     @apply w-screen h-screen flex-col bg-back;
-    background-color: #F3F3F3;
 }
 
 //HEADER
@@ -77,6 +76,7 @@ header > ul > li{
 }
 .processo-especifico{
     @apply flex h-full w-5/6 flex-col text-back justify-evenly pl-10;
+    box-shadow: 15px 15px #E38E29;
 }
 .processo-especifico > h5{
     @apply text-2xl;
@@ -165,14 +165,14 @@ header > ul > li{
 
 
 
-//GORGES
+
 
 .beneficios {
-    @apply w-screen h-4/5 bg-[#f3f3f3] flex items-center flex-col justify-center mb-48;
+    @apply w-full h-4/5 bg-back flex items-center flex-col;
 }
 
 
-.div {
+.beneficios-div {
     @apply w-4/5 h-1/3 flex flex-col justify-center items-center;
 }
 
@@ -205,8 +205,10 @@ header > ul > li{
     @apply text-back text-2xl text-center;
 }
 
+
+//RELATOS
 .relatos {
-    @apply w-screen h-screen bg-[#f3f3f3] flex items-center flex-col;
+    @apply w-full h-full bg-back flex items-center flex-col pt-24;
 }
 
 .titleRelatos {
@@ -230,8 +232,8 @@ header > ul > li{
     box-shadow: 15px 15px #E38E29;
 }
 
-.texto {
-    @apply text-back text-2xl font-thin text-center
+.beneficios-texto {
+    @apply text-back text-xl font-thin text-center
 }
 
 .nota {
