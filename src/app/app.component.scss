@@ -2,6 +2,7 @@
 
 section{
     @apply w-screen h-screen flex-col bg-back;
+    background-color: #F3F3F3;
 }
 
 //HEADER
@@ -40,7 +41,7 @@ header > ul > li{
 
 // CARDS MISSÃO...
 .cards-empresa{
-    @apply flex w-full h-full items-center flex-col text-back justify-center;
+    @apply flex w-full h-full items-center flex-col text-back justify-center bg-back;
 }
 .cards-empresa > :first-child{
     @apply grid grid-cols-2 gap-4 w-[80%] h-1/2 bg-primary rounded-md;
@@ -66,7 +67,7 @@ header > ul > li{
 
 //PROCESSOS
 .processos{
-    @apply flex w-full h-1/2 items-center justify-center;
+    @apply flex w-full h-1/2 items-center justify-center bg-back;
 }
 .grid-processos{
     @apply grid w-[80%] h-[70%] grid-cols-2;
@@ -94,4 +95,58 @@ header > ul > li{
 }
 .processos-card-logistico{
     @apply flex w-full h-full justify-end;
+}
+
+//HENRIQUE
+
+.conheca-mogh{
+    @apply flex w-full h-1/3 justify-center items-center bg-back;
+}
+
+.background-div{
+    @apply absolute flex-col w-[75%] h-[45%] bg-white rounded text-primary font-semibold;
+}
+.background-div > p{
+    @apply flex w-full justify-center text-xl mt-5;
+}
+
+.icons-div{
+    @apply flex w-full h-[90%] flex-col justify-center;
+}
+.icons-div > div {
+    @apply flex w-full h-full flex-row items-center justify-evenly ; 
+}
+.icons-div > div >div {
+    @apply flex w-1/6 h-[50%] flex-col items-center justify-center;
+}
+.img{
+    @apply flex w-1/6 h-auto;
+}
+
+.div-full-credibilidade{
+    @apply h-[35%] w-full flex justify-center bg-back;
+}
+
+.div-dados-empresa{
+    @apply w-full h-[70%] ;
+    align-self: flex-end;
+    @apply bg-lightBlue;
+}
+.div-ia{
+    @apply w-[60%] h-[20%];
+    @apply bg-primary;
+    @apply absolute;
+    @apply text-back;
+    @apply flex flex-col items-center;
+}
+
+.title{
+    font-size: 30px;
+    @apply border-b;
+    @apply border-b-orange;
+    @apply pb-6;
+}
+
+.text{
+    @apply pt-4;
 }
