@@ -124,29 +124,41 @@ header > ul > li{
 }
 
 .div-full-credibilidade{
-    @apply h-[35%] w-full flex justify-center bg-back;
+    @apply h-[45%] w-full flex justify-center bg-back;
 }
 
-.div-dados-empresa{
-    @apply w-full h-[70%] ;
+.div-grande-azul-fund{
+    @apply w-full h-[70%];
     align-self: flex-end;
-    @apply bg-lightBlue;
+     @apply bg-lightBlue
+     flex items-end;
+   
+
 }
 .div-ia{
-    @apply w-[60%] h-[20%];
-    @apply bg-primary;
-    @apply absolute;
-    @apply text-back;
-    @apply flex flex-col items-center;
+    @apply w-[60%] h-[25%]
+   bg-primary
+    absolute
+   text-back
+    flex flex-col items-center;
 }
 
 .title{
-    font-size: 30px;
-    @apply border-b;
-    @apply border-b-orange;
-    @apply pb-6;
+    @apply flex w-full h-[50%]  text-5xl justify-center items-center;
 }
 
 .text{
-    @apply pt-4;
+    @apply flex w-full h-[50%] text-center flex-col text-xl;
+}
+
+.div-dados-empresa{
+    @apply
+    w-full h-[64%]
+    flex 
+    justify-evenly
+    items-center text-2xl;
+}
+
+.destaque{
+    @apply text-3xl mr-3 flex justify-center;
 }
